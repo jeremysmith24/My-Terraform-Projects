@@ -1,0 +1,15 @@
+# Terraform
+*.tfstate
+*.tfstate.backup
+.terraform/
+*.tfvars
+crash.log
+*.tfplan
+
+# Jenkins
+*.log
+*.tmp
+*.bak
+workspace/
+target/
+build/
