@@ -1,11 +1,11 @@
 variable "region" {
-  type    = string
-  default = "us-east-1" # You can change this if needed
+  default = "us-east-1"
+  type    = string # You can change this if needed
 }
 
 variable "instance_type" {
-  description = "Amazon Linux"
-  default     = "t2.micro" # Adjust as necessary
+  default = "t3.micro"
+  type    = string # Adjust as necessary
 }
 
 variable "ami" {
@@ -18,3 +18,11 @@ variable "key_name" {
   type    = string
 }
 
+variable "aws_s3_bucket" {
+  default = "jenkins-artifacts-bucket007"
+  type    = string
+}
+variable "acl" {
+  default = "private"
+  type    = string
+}
