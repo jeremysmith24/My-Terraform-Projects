@@ -67,7 +67,6 @@ resource "aws_s3_bucket" "jenkins_artifacts_s3" {
   }
 }
 
-
 # Block public access settings using aws_s3_bucket_public_access_block
 resource "aws_s3_bucket_acl" "s3_bucket_acl" {
   bucket     = aws_s3_bucket.jenkins_artifacts_s3.id
