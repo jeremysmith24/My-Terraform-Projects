@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>So Icy Crew - Snowboard & Ski Gear</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Arial', sans-serif;
+            background: linear-gradient(to bottom, #e0f7fa, #ffffff);
+            color: #333;
+        }
+        header {
+            background-color: #003366;
+            color: #ffffff;
+            padding: 20px;
+            text-align: center;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        header h1 {
+            font-family: 'Georgia', serif;
+            font-size: 2.5rem;
+            margin: 0;
+        }
+        header p {
+            margin: 5px 0 0;
+        }
+        .banner {
+            background: url('https://images.unsplash.com/photo-1518707210096-b24287a7d77a?crop=entropy&cs=tinysrgb&w=1200&fit=max') no-repeat center center/cover;
+            height: 300px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: #ffffff;
+            text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+        }
+        .banner h2 {
+            font-size: 2.5rem;
+            margin: 0;
+        }
+        .catalog {
+            max-width: 1200px;
+            margin: 20px auto;
+            padding: 20px;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: center;
+        }
+        .item {
+            background-color: #f8f9fa;
+            border-radius: 10px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+            text-align: center;
+            padding: 20px;
+            width: 300px;
+            transition: transform 0.3s;
+        }
+        .item:hover {
+            transform: scale(1.05);
+        }
+        .item img {
+            max-width: 100%;
+            border-radius: 10px;
+            height: auto;
+        }
+        .item h3 {
+            font-size: 1.5rem;
+            margin: 15px 0;
+        }
+        .item p {
+            margin: 10px 0;
+        }
+        footer {
+            background-color: #003366;
+            color: #ffffff;
+            text-align: center;
+            padding: 15px 0;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>So Icy Crew</h1>
+        <p>Your one-stop shop for snowboard and ski gear</p>
+    </header>
+
+    <div class="banner">
+        <h2>Gear Up for the Chill!</h2>
+    </div>
+
+    <section class="catalog">
+        <div class="item">
+            <img src="https://images.unsplash.com/photo-1603297631959-b84b1d8a700f?crop=entropy&cs=tinysrgb&w=400&fit=max" alt="Snowboard">
+            <h3>So Icy Snowboard</h3>
+            <p>Shred the slopes in style. Perfect for beginners and pros alike.</p>
+            <p><strong>$299.99</strong></p>
+        </div>
+
+        <div class="item">
+            <img src="https://images.unsplash.com/photo-1517524285303-d6fc683dddf8?crop=entropy&cs=tinysrgb&w=400&fit=max" alt="Ski Set">
+            <h3>Alpine Ski Set</h3>
+            <p>High-performance skis for carving through powder.</p>
+            <p><strong>$349.99</strong></p>
+        </div>
+
+        <div class="item">
+            <img src="https://images.unsplash.com/photo-1602438219996-8e553fb60437?crop=entropy&cs=tinysrgb&w=400&fit=max" alt="Winter Jacket">
+            <h3>Insulated Winter Jacket</h3>
+            <p>Stay warm and cozy with our premium winter jackets.</p>
+            <p><strong>$149.99</strong></p>
+        </div>
+
+        <div class="item">
+            <img src="https://images.unsplash.com/photo-1551205478-05eae9c5f8ea?crop=entropy&cs=tinysrgb&w=400&fit=max" alt="Ski Goggles">
+            <h3>Polarized Ski Goggles</h3>
+            <p>Protect your eyes while keeping visibility clear in snowstorms.</p>
+            <p><strong>$79.99</strong></p>
+        </div>
+
+        <div class="item">
+            <img src="https://images.unsplash.com/photo-1559579319-39754c166ff1?crop=entropy&cs=tinysrgb&w=400&fit=max" alt="Gloves">
+            <h3>Thermal Ski Gloves</h3>
+            <p>Durable and warm, essential for any winter activity.</p>
+            <p><strong>$39.99</strong></p>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 So Icy Crew. All rights reserved. | Stay warm, shop cozy.</p>
+    </footer>
+</body>
+</html>
