@@ -1,5 +1,4 @@
 NOTE: Use the Terraform documentation to build out your code. 
-You should not be copying and pasting a past or current guest’s code.
 Be sure to use Variables where you feel appropriate to make your code as reusable as possible. 
 Generally if it’s a value you think could change in the future or if it’s a value that’s repeated, then it should be a variable.
 
