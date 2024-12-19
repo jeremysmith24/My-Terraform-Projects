@@ -1,6 +1,6 @@
 #!/bin/bash
-sudo yum update -y
-sudo yum install -y httpd
+sudo apt update -y
+sudo apt install -y httpd
 sudo systemctl start httpd
 sudo systemctl enable httpd
 # Create a simple index.html file
