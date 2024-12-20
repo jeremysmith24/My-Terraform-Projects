@@ -61,7 +61,7 @@ resource "aws_autoscaling_group" "terraform_asg" {
   # Tagging the ASG for better indentification
   tag {
     key                 = "Name"
-    value               = "terraform-asg"
+    value               = "terraform-asg-instance"
     propagate_at_launch = true
   }
 }
@@ -72,7 +72,7 @@ resource "aws_launch_template" "launch-asg" {
   image_id      = var.ami_id
   instance_type = var.instance_type
   key_name      = var.key
-  user_data     = base64encode(file("install_apache.sh")) # Explicit encoding of user data
+  user_data     = base64encode(file("install_apache.sh"))
 
   network_interfaces {
     associate_public_ip_address = true
